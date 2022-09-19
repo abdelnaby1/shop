@@ -59,9 +59,8 @@ const cart_reducer = (state, action) => {
             }
             return { ...item, amount: newAmount };
           }
-        } else {
-          return item;
         }
+        return item;
       });
       return { ...state, cart: tempCart2 };
     case COUNT_CART_TOTALS:

@@ -1,22 +1,22 @@
 ## Notes
 
-#### Older React Version
+#### npm start
 
 ```
-"react": "^16.13.1",
-"react-dom": "^16.13.1",
-"react-scripts": "3.4.3",
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
+
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 ```
 
-#### Current React Version
+#### npm run build
+
 
 ```
-"react": "^17.0.1",
-"react-dom": "^17.0.1",
-"react-scripts": "4.0.0",
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 ```
-
-#### Alternative fix
-
-.env file in the root
-FAST_REFRESH=FALSE
